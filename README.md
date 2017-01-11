@@ -9,3 +9,12 @@ Running through course at: https://www.udemy.com/the-complete-react-native-and-r
 3. beautify with ctrl+alt+b
 
 Note: object-curly-spacing rallycoding eslint conflicts with style from beautify so turned it off.
+
+## Running emulator and choosing avd
+
+
+```
+$ emulator -list-avds
+$ emulator @foo
+```
+
