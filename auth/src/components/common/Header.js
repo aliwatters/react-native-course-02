@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
       height: 2
     },
     shadowOpacity: 0.2,
-    elevation: 3,
+    elevation: 1,
     position: 'relative'
   },
   text: {
