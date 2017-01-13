@@ -12,9 +12,32 @@ Note: object-curly-spacing rallycoding eslint conflicts with style from beautify
 
 ## Running emulator and choosing avd
 
+`action -> store [reducer -> state]`
 
 ```
 $ emulator -list-avds
 $ emulator @foo
 ```
 
+## Redux
+
+```
+const reducer = (state=[], action) => {
+	if (action.type === 'split_string') {
+  	return action.payload.split('');
+  }
+  return state;
+};
+
+const store = Redux.createStore(reducer);
+
+store.getState();
+
+const action = {
+  type: 'split_string',
+  payload: 'hello'
+};
+
+store.dispatch(action);
+store.getState();
+```
