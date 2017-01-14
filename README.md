@@ -1,6 +1,7 @@
 # React Native Course 02
 
 Running through course at: https://www.udemy.com/the-complete-react-native-and-redux-course/
+Repo at https://github.com/StephenGrider/ReactNativeReduxCasts
 
 ## eslint and beautify setup
 
