@@ -2,6 +2,7 @@
     "extends":"rallycoding",
     "rules":{
        "object-curly-spacing": "off",
-       "react/jsx-space-before-closing": [2, "never"] 
+       "react/jsx-space-before-closing": "off",
+       "arrow-body-style": "off"
     }
 }
